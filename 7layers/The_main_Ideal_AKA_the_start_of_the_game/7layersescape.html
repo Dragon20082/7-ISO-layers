@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="7layers.css">
+		<title>My Web Site</title>
+	</head>
+	<body>
+		<div id="game-lobby">
+			<h2>C/Cyber Mystery Lobby</h2>
+			<input type="text" id="playerName" placeholder="Enter your name" />
+			<div id="gameSettings">
+				<label for="gameTime">Game Time (minutes):</label>
+				<input type="number" id="gameTime" value="10" min="1" max="60" />
+			</div>
+			<button onclick="createGame()">Create Game</button>
+			<button onclick="joinGame()">Join Game</button>
+			<div id="gameIDDisplay"></div>
+			<div id="gameStatus"></div>
+		</div>
+		<script src="layers.js"></scrip>
+	</body>
+</html>

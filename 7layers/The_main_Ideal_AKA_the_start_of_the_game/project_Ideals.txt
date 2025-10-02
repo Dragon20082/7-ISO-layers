@@ -1,0 +1,102 @@
+﻿Before game
+make/join game system
+Player names
+Roles:
+Whitehat
+Blackhat
+Patch Manager
+Basic User
+
+
+
+
+7layers:
+1.Pysical
+1. Physical Structure
+* Coax;
+* Fiber;
+* Wireless;
+Disconnected/powered off router
+* Hubs;
+* Repeaters;
+2.data link
+1. Frames
+* Ethernet;
+* PPP;
+Access point
+* Switch;
+MAC table can be changed
+* Bridge;
+Access point
+3.Network
+1. Packets
+* IP’s;
+Can be DDOS/DOS
+Can use to inject malware
+* ICMP;
+Can be used to show what is happening to a system
+* IPSEC;
+* IGMP;
+4.Transport
+1. End-to-end connection
+* TCP;
+* dos/ddos by sending fake traffic
+* UDP;
+* dos/ddos by sending fake traffic
+5.Session
+1. Synch and send to port
+* API’s;
+* Sockets;
+* Winsock;
+Blackhat accesses a normal port like 22 or 80 then uses winsocks API to open more ports
+
+
+6.Presentation
+1. Syntax layer
+* SSL;
+Reroute traffic and use to make it look legit,
+* SSH;
+Black hats could accuse by having admin
+* IMAP;
+Send/intercept Emails
+* FTP;
+DDOS/DOS port 21 to block task,
+Where Basic users get files for task,
+Sending fake files with malware.
+* MPEG;
+* Injection
+* JPEG;
+* Injection
+7.Application
+1. End user layer
+* HTTP;
+Phishing link/malware,
+Block task from DDOS/DOS port 80
+* FTP;
+* IRC;
+* SSH;
+Black hats could accessed by having admin
+* DNS;
+
+
+Game rules:
+Patch Managers can block, and unblock everyone's MAC address
+Will have notepad for everyone
+BlackHats can highject systems 
+Timer only blackhats can see as a download bar
+Basic user sees Timer as a task schedule and time on system
+Special GUIs for each role
+Win conditions for the company: either get all task done, or secure the network
+Winning conditions for blackhats: finish the timer
+* Can do stuff to sabotage to run down the time
+Blackhat: Must survive the timer, and not be found out who they are,  while trying to cause as must destruction as possible
+Whitehat: looks for security valuabilities that are sent to the Patch manager but the whitehats are secret like the blackhats
+Patch Manager: fixes any reported security valuabilities, and Sabotages
+Basic user: must do all task before timer runs out
+GUIs
+White/Black hat,
+1. A terminal and networking tools(example wireshark)
+Patch Manager,
+2. Networking tools and networking config
+Basic user,
+3. A simple desktop (Example windows)
